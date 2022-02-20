@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+}
+
+.formHeader {
+    justify-content: center;
+    width: 100%;
+    margin: 5px;
+}
+
+.dreamiesH2 {
+    width: 80%;
+}
+
+.navButton {
+    background-color: transparent;
+    margin: 5px;
+    border-radius: 10px;
+    /* min-width: 100px; */
+}
+
+.inputFormat {
+    justify-content: center;
+    height: 20%;
+    min-height: 45px;
+    margin-bottom: 1%;
+}
+
+.formButton {
+    background-color: transparent;
+    margin: 5px;
+    border-radius: 10px;
+    width: 12%;
+    min-width: 100px;
+    height: 85%;
+}
+
+
+.formInput {
+    width: 80%;
+    height: 75%;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+
+.villagerButtons {
+    background-color: transparent;
+    border-radius: 10px;
+    width: 100%;
+    min-width: 120px;
+    justify-content: space-around;
+}
+
+.deleteButton {
+    background-color: transparent;
+    margin: 5px;
+    border-radius: 10px;
+    width: 18%;
+    min-width: 75px;
+    height: 5vh;
+}
+
+.deletePNG {
+    background-color: transparent;
+    height: 30%;
+    margin-left: 5px;
+}

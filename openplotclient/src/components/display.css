@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+}
+
+.outerDiv {
+    position: relative;
+    height: 100%;
+    width: 100%
+}
+
+.backgroundImage {
+    background: url('./IsabelleBackground.jpg') no-repeat center fixed;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.logoDiv {
+    position: absolute;
+    z-index: 2;
+    justify-content: space-around;
+    align-items: center;
+    height: 25%;
+    width: 100%;
+    top: 1%;
+}
+
+.logo {
+    height: 80%;
+    width: auto;
+    position: absolute;
+}
+
+.picsDiv {
+    position: absolute;
+    z-index: 2;
+    justify-content: space-around;
+    align-items: center;
+    height: 25%;
+    width: 100%;
+    top: 25%;
+}
+
+.villagerPic {
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+}
+
+.formDiv {
+    position: absolute;
+    z-index: 3;
+    height: 98%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.formDiv2 {
+    position: relative;
+    width: 90%;
+    height: 25%;
+    background-color: peachpuff;
+    border: black solid 6px;
+    border-radius: 10px;
+    top: 73%;
+}

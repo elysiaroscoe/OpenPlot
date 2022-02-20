@@ -1,0 +1,69 @@
+.container {
+    display: flex;
+}
+
+.outerDiv {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.infoPage {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+.infoBox {
+    background-color: peachpuff;
+    text-align: center;
+    border: black solid 6px;
+    border-radius: 10px;
+    padding: 15px;
+    z-index: 2;
+    padding-bottom: 4%;
+    height: auto;
+    width: auto;
+}
+
+.clearButton {
+    background-color: transparent;
+    border-radius: 10px;
+    width: 15%;
+    min-width: 120px;
+    padding: 2px;
+    margin-top: 4px;
+}
+
+.backgroundImage {
+    background: url('./IsabelleBackground.jpg') no-repeat center fixed;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover, a:active {
+    color: #4CCC58;
+}
+
+.helpLinks {
+    justify-content: space-around;
+}
+
+.navButton {
+    background-color: transparent;
+    border-radius: 10px;
+    width: 15%;
+    min-width: 120px;
+    padding: 2px;
+    margin-top: 4px;
+}
