@@ -27,16 +27,14 @@ const Info = () => {
                         <p>This site was developed as a browser homepage for ACNH players</p>
                         <p>to remind you to time travel back so that your plot stays open</p>
                         <p>and give you a place to display and manifest your dreamies</p>
-                        <p>Villager info sourced from <a href="https://api.nookipedia.com/">Nookipedia API</a> </p>
-                        <p>Here is the project's <a href="https://github.com/elysiaroscoe/OpenPlot">GitHub Repository</a></p>
                     </div>
                     <div>
                         <h2>How To Use</h2>
-                        <p>Type your desired villager name</p>
+                        <p>Type your desired villager name!</p>
                         <p>Submit the form and their photo will appear</p>
                         <p>An alert will appear if the villager is not found</p>
                         <p>To remove a villager, click on the button with their name</p>
-                        <p>If you would like to start over, you can click the button below</p>
+                        <p>If you would like to start over, you can click the button below:</p>
                     </div>
                     <button className="clearButton" onClick={() => clearData()}>Start Over</button>
                     <div>
@@ -45,6 +43,7 @@ const Info = () => {
                         <p>Viewing the page will remind you to change your time in-game</p>
                         <p>Navigate to Browers Settings, Appearance, Show Home, and there you can set OpenPlot! </p>
                         <p>Wishing you a quick and easy dreamy hunt &#10084; </p>
+                        <p><a href="https://api.nookipedia.com/">Nookipedia API</a> <a href="https://github.com/elysiaroscoe/OpenPlot">GitHub Repository</a></p>
                     </div>
                 </div>
             </div>
