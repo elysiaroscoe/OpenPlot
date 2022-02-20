@@ -49,7 +49,7 @@ const Form = (props) => {
     return (
         <>
             <div className='container formHeader'>
-                <h2 className='dreamiesH2'>Your Dreamies</h2>
+                <h2 className='dreamiesH2'>My Dreamies</h2>
                 <button className='navButton' onClick={toDisplay}>Information</button>
             </div>
             <form onSubmit = {addVillager} className='container inputFormat'>
