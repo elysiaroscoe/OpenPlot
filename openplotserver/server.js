@@ -2,12 +2,17 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 
+
 //authentication
 const cookieParser = require('cookie-parser');
 
 
 //bring in the middleware
 app.use(cors({credentials: true, origin: 'http://localhost:3000'}), cookieParser(), express.json(), express.urlencoded({extended:true}));
+
+
+//allow access to .env files
+require('dotenv').config();
 
 //database connection
 require("./config/mongoose.config")(process.env.DB);

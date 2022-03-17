@@ -1,6 +1,6 @@
 const axios = require('axios');
 const _PHOTO_URL = 'https://api.nookipedia.com/nh/photos';
-// const _VILLAGER_URL = 'https://api.nookipedia.com/villagers';
+const _VILLAGER_URL = 'https://api.nookipedia.com/villagers';
 const header = {
     "X-API-KEY": process.env.NOOKIPEDIA_SECRET_KEY,
     "Accept-Version": "1.5.0"
